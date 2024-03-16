@@ -31,9 +31,9 @@ public class Main {
 
         // Add bank accounts to the second customer
         for (int i = 6; i <= 14; i++) {
-            String accountNumber = "OTP000" + i;
-            double initialBalance = new Random().nextInt(10000); // Random initial balance
-            BankAccount account = new BankAccount(accountNumber);
+            String accountNumber="OTP000"+i;
+            double initialBalance= new Random().nextInt(10000);
+            BankAccount account=new BankAccount(accountNumber);
             customer2.addAccount(account);
             customer2.getAccount(accountNumber).deposit(initialBalance);
         }

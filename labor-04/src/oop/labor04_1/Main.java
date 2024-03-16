@@ -31,8 +31,7 @@ public class Main {
             e.printStackTrace();
         }
     }
-    public static ArrayList<Person> readFromCSVFile(String filename)
-    {
+    public static ArrayList<Person> readFromCSVFile(String filename) {
         ArrayList<Person> persons=new ArrayList<>();
         try(Scanner scanner = new Scanner(new File(filename))){
             while(scanner.hasNextLine())
@@ -43,9 +42,9 @@ public class Main {
                     continue;
                 }
                 String[] items=line.split(",");
-               // System.out.println(items[0]);
+                // System.out.println(items[0]);
                 String firstName=items[0].trim();
-                String lastName=items[1].trim();
+                String lastName=items[1].trim(); //persons.get(0); persons.set(0,"JOHN"); persons.remove(0);persons.clear(),.size() stb..;
                 int birthYear=Integer.parseInt(items[2].trim());
                 persons.add(new Person(firstName,lastName,birthYear));
             }
@@ -53,8 +52,8 @@ public class Main {
         {
             e.printStackTrace();
         }
+
         return persons;
     }
-
 }
 

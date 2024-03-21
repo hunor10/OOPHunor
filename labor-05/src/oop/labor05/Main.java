@@ -52,7 +52,7 @@ public class Main {
     }
 
     private static ArrayList<Student> readStudents(String filename) {
-        ArrayList<Student> students = new ArrayList<>();
+        ArrayList<Student>  students = new ArrayList<>();
         try (Scanner scanner = new Scanner(new File(filename))) {
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();

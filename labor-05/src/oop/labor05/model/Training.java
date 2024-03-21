@@ -57,12 +57,13 @@ public class Training {
         }
     }
 
-    @Override
-    public String toString() {
-        return "Training{" +
-                "course=" + course +
-                ", enrolledStudents=" + enrolledStudents +
-                '}';
+     public String toString() {
+        StringBuffer S=new StringBuffer("The course:" + course +" is between"+startDate+"-"+endDate+" the price is "+pricePerStudent);
+    for(Student s:enrolledStudents)
+    {
+        S.append(s.toString());
+    }
+    return S.toString();
     }
 
     public void unEnroll(String ID)

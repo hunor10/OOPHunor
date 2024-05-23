@@ -1,7 +1,10 @@
-package oop.labor13;
+    package oop.labor13;
 
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("labor13");
-    }
+    import static oop.labor13.StudentProcessor.processStudentData;
+
+    public class Main {
+        public static void main(String[] args) {
+            processStudentData("input.csv","words.txt");
+
+        }
 }

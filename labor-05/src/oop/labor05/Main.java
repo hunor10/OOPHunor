@@ -18,6 +18,7 @@ import java.util.Random;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("asd");
         ArrayList<Course> courses = readCourses("courses.csv");
         ArrayList<Student> students = readStudents("students.csv");
         ArrayList<Training> trainings=createTrainings(courses,students);
@@ -42,7 +43,6 @@ public class Main {
                 String[] items = line.split(",");
                 Course course = new Course(items[0].trim(), items[1].trim(), Integer.parseInt(items[2].trim()));
                 courses.add(course);
-
 
             }
         } catch (FileNotFoundException e) {

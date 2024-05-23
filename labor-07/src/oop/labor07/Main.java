@@ -18,8 +18,7 @@ public class Main {
         {
             stack2.push(i);
         }
-        stack2.removeFirst();
-        stack2.removeFirst();
+
         while(!stack2.isEmpty())
         {
             System.out.print(stack2.top()+" ");

@@ -1,3 +1,20 @@
-John,  BLACK , 1980
-Mary,   WHITE ,     1982
-Simon, Brown ,   2000
+ABC123, John, Doe, 25, 2000
+XYZ789, Jane, Smith, 40, 19.99, 8, 15
+ABC456, Emily, Johnson, 28, 2001, 10, 30
+DEF234, Michael, Brown, 35, 1998, 12, 5
+GHI567, Linda, Davis, 18, 2002, 3, 22
+JKL890, Robert, Wilson, 45, 2000, 7, 19
+MNO345, Susan, Martinez, 27, 2001, 4, 25
+PQR678, Mary, Anderson, 50, 1997, 9, 10
+STU901, James, Thomas, 29, 1996, 6, 14
+VWX234, Patricia, Jackson, 32, 1999, 11, 28
+YZA567, Barbara, White, 48, 1998, 2, 45
+BCD890, Richard, Harris, 20, 2002, 1, 21
+EFG123, Karen, Lewis, 33, 1997, 8, 12
+HIJ456, Matthew, Robinson, 26, 1996, 5, 16
+KLM789, Lisa, Walker, 44, 2000, 10, 9
+NOP012, Paul, Young, 19, 2001, 12, 31
+QRS345, Nancy, King, 41, 1998, 4, 4
+TUV678, Mark, Wright, 30, 1997, 3, 27
+WXY901, Donna, Lopez, 22, 1999, 7, 11
+ZAB234, George, Hill, 49, 2002, 2, 5

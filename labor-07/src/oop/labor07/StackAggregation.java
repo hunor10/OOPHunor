@@ -1,6 +1,7 @@
 package oop.labor07;
 
 import java.util.ArrayList;
+import java.util.Stack;
 
 public class StackAggregation {
     private int capacity;

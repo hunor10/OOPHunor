@@ -1,0 +1,8 @@
+ABC456, Emily, Johnson, 28, 2001, 10, 30
+GHI567, Linda, Davis, 18, 2002, 3, 22
+MNO345, Susan, Martinez, 27, 2001, 4, 25
+STU901, James, Thomas, 29, 1996, 6, 14
+BCD890, Richard, Harris, 20, 2002, 1, 21
+HIJ456, Matthew, Robinson, 26, 1996, 5, 16
+NOP012, Paul, Young, 19, 2001, 12, 31
+WXY901, Donna, Lopez, 22, 1999, 7, 11

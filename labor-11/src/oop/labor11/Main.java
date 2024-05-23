@@ -12,5 +12,14 @@ Storage storage=new Storage("data1000.txt");
                 long finish=time2-time1;
         System.out.println("time of modification: ");
         System.out.print(finish);
+
+        double[] numbers = {4.5, 2.0, 7.1, 3.3, 6.2};
+        System.out.println();
+        try {
+            double result = Util.median(numbers);
+            System.out.println("Median: " + result);
+        } catch (Exception e) {
+            System.out.println("An error occurred: " + e.getMessage());
+        }
     }
 }
